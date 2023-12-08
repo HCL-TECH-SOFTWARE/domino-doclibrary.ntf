@@ -1,0 +1,1041 @@
+---
+class: 33024
+flags: 0x0000
+unid: OF50C0CE2416E55892-ON004F7EAD85256207
+items:
+  - name: $ClientEventTag
+    type_num: 769
+    type: opaque
+    opaque: |
+      FwAAAAAAAOAAoG9BAAAAQACAb0EAAABAAGBvQQAAAEAAQG9BAAAAQAAgb0EAAABAAABvQQAAAEAA4G5B
+      AAAAQADAbkEAAABAAKBuQQAAAAAAgG5BAAAAQABgbkEAAABAAEBuQQAAAEAAAG5BAAAAQADgbUEAAABA
+      AMBtQQAAAEAAIGpBAAAAQAAAakEAAABAAOBpQQAAAEAAwGlBAAAAQACgaUEAAABAAIBpQQAAAEAAYGlB
+      AAAAQABAaUE=
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $Flags
+    type: text
+    data: R
+  - name: $WebFlags
+    type: text
+    data: J
+    signed: true
+  - name: OriginalModTime
+    type: time
+    data: "2005-09-14T13:16:00.23-07:00"
+    dst: true
+    signed: true
+  - name: $Body
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0xff82
+        FirstLineLeftMargin: 2577
+        Flags: 0x0000
+        Flags2: 0x0094
+        JustifyMode: 0
+        LeftMargin: 2880
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 12269
+        Tab:
+          - 302
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+      - type: 0x00a6
+        Flags: 0x00000000
+        PABID: 1
+        StyleName: bullet
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 2
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 2
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8MAAIADAAgAAAA
+      - type: 0xfff9
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8iAPn/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkA3Q==
+      - type: 0xff66
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: Zf8iAGb/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkAcg==
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Go back
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8795
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 3
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 3
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8sAAIAHAAAACAAIAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Close this document to view the database
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 2
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 4
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0101
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8794
+        JustifyMode: 3
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 5
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 5
+      - type: 0xffc3
+        opaque: w/8IAAGhwBI=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x12c00101
+        data: Using Document Library
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x400000
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+        data: This database allows you to capture and track information about documents.
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 4
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 6
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x8000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0xa000501
+        data: "Functions of the Database:"
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x8000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To add a document to this database
+      - type: 0xff85
+        FontID: 0x9000001
+        data: ": "
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 7
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1800
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Click the New Document action from any of the views.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To respond to a document
+      - type: 0xff85
+        FontID: 0x9000001
+        data: ": "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Open a document, then click the Response action.  From a Notes Client, you can also highlight that document in a view, then click Response from there.  For Notes Client users, this creates a response to the main document in the thread.  For browser clients, this creates a response to the current document."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To respond to a response
+      - type: 0xff85
+        FontID: 0x9000001
+        data: ":"
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "From a Notes Client, highlight the response you wish to respond to, then click Response to Response.  This function is performed from a browser by using the Response action, as described above."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "To flag a document as Private:"
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1857
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 8
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 302
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1857
+          - 13
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "You can use the \"Mark Private\" and"
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "\"Mark Public\" actions in the template to control whether anyone other than yourself can read a specific document.  For example, if you have not completed the writing of a particular document, you can click the \"Mark Private\" action and others will not be able to see the document.  When you complete the document, you can click the"
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "\"Mark Public\""
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "action to make it available for others to read.  If a document is marked private after it has been submitted for review, the document author and the reviewers will be able to read the document."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0xa000501
+        data: ACL Settings
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x8000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "This application was designed with the intention that all users, except the manager, should have Author access.  If they have editor access, the review cycle may not function correctly.  Anonymous access is not permitted."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0xa000501
+        data: Features
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x8000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "Document Review Cycle:"
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "The author of a document has the option of setting up a document review cycle for that document. To do so fill in the reviewers, select  review cycle options and click Submit for Review button.   "
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 2160
+        LineSpacing: 0
+        PABID: 9
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 2160
+          - 15
+          - 1800
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 9
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Note:  "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Do not use "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "@Domain"
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " when entering reviewer names.  Any domain added may prevent the reviewer from receiving mail notifications.  Also, only enter Person-names as approvers.  Group names are not supported."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 10
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1440
+          - 10
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 10
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "Processing Late Reviews:"
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If the Process Late Reviews agent is enabled, it selects those documents which are in review and have due dates which have passed.  Based on the time limit options chosen by the originator, it then either moves it along to the next reviewer, marks it as complete, or notifies the current reviewer that the review is overdue."
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 11
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 720
+          - 1440
+          - 2160
+          - 2880
+          - 3600
+          - 4320
+          - 5040
+          - 5760
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 8
+        data:
+          - 1800
+          - 12
+          - 1440
+          - 10
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 11
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 12
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 13
+          - 1440
+          - 13
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Archiving
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Notes users only: "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000201
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "To set up Archiving for the Document Library, click the Archive button on the second tab of the File-Database-Properties infobox.  Fill out the information and click the OK button.  Set up the Archiving task to run on the server.  An archive database will be set up automatically."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000401
+        data: "Marking documents as \"Expired\"  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "The Archive feature can act upon documents that have been marked as Expired.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Notes users:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Select a document in the view and choose Mark/Unmark Expired from the Actions menu.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Web browser users:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Put the document into edit mode by clicking the Edit Document hotspot.  Then click the Mark/Unmark Expired hotspot at the top of the document.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Deleting Documents on the Web
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "In the R7 template, you can now delete documents on the web while at the view level.  Click the document once to 'highlight' it and click the \"Move to Trash\" button.  A trash can icon will appear next to the document.  To remove the document permanently from the database, click the \"Empty Trash\" button."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $Fonts
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: i/8oAAEABRZUaW1lcyBOZXcgUm9tYW4AAAAAAAAAAAAAAAAAAAAAAA==
+  - name: $HTMLCode
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+  - name: $Info
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

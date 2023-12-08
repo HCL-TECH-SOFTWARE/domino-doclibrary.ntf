@@ -1,0 +1,156 @@
+---
+class: 512
+flags: 0x0000
+unid: OF34295BE8DFF9A3D0-ON00622101852564B4
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Use "wStringResource"
+      Use "DiscussionRoutines"
+      
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim topicview As String
+      Dim favorites As String
+      Dim categoryview As String
+      Dim archivingview As String
+      Dim authorview As String
+      Dim originalnote As notesdocument
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	Set session = New NotesSession
+      	Set note = session.DocumentContext
+      	Set db = session.currentdatabase
+      	dbpath = getdbpath
+      	
+      'this part is different from discsw46.ntf and is because doclib has different view aliases
+      '------------------------------------------------------------------------------          
+      'Get real document
+      	OriginalUNID = Mid(note.Query_String(0), Instr(note.Query_String(0), "&")+1, 32)
+      	Set originalNote = db.getdocumentbyunid(originalunid)
+      	
+      	CurrentDocument = "<hr><font size=2><a href=/"+dbpath+"/($All)/"+Lcase(originalUNID)+"?OpenDocument>" + getstring(1)  + "</a>&nbsp&nbsp&nbsp"
+      	TopicView =   "<a href=/" + dbpath + "/($All)?OpenView>" + getstring(2)  + "</a>&nbsp&nbsp&nbsp"
+      	CategoryView = "<a href=/" + dbpath + "/ByCategory?OpenView>" + getstring(3)  + "</a>&nbsp&nbsp&nbsp"
+      	AuthorView = "<a href=/" + dbpath + "/ByAuthor?OpenView>" + getstring(4)  + "</a>&nbsp&nbsp&nbsp"
+      	AltnameView = "<a href=/" + dbpath + "/by+Alternate+Name?OpenView>" + getstring(5)  + "</a>&nbsp&nbsp&nbsp "
+      	ReviewView = "<a href=/" + dbpath + "/ReviewStatus?OpenView>" + getString(33) + "</a><hr>"
+      	Links = Currentdocument+topicview+authorview+categoryview+ Altnameview + reviewview
+      '------------------------------------------------------------------------------     
+      	
+      'The following is the same as that in discsw46.ntf (except for the Links variable)
+      	If Originalnote.hasitem("protectfromarchive") Then
+      		Print "<b>"+Originalnote.form(0)+GetString(12)+"</b>"+Links
+      	Elseif OriginalNote.hasitem("expiredate") Then
+      		If originalnote.expiredate(0) <> "" Then
+      			Print "<h3>" + GetString(13)+ "</h3>"+Links
+      			OriginalNote.Removeitem("Expiredate")
+      			Call OriginalNote.save(True, False)
+      		Else
+      			OriginalNote.expiredate = Today
+      			Call OriginalNote.save(True,False)
+      			Print "<h3>"+ GetString(14) + "</h3>"+Links
+      		End If
+      	Else
+      		OriginalNote.expiredate = Today
+      		Call OriginalNote.save(True,False)
+      		Print "<h3>" + GetString(14) +  "</h3>"+Links
+      	End If
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHu
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      N7VjAFhuJYWVV0UAWG4lhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: This performs the expiring/unexpiring of document functions for the web user.
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "6.5"
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3u
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 0
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (WebExpire)
+    signed: true
+remaining: []

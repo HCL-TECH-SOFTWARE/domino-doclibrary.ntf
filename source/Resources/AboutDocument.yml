@@ -1,0 +1,736 @@
+---
+class: 32770
+flags: 0x0000
+unid: OF98D9F4376F5754C5-ON004F878985256207
+items:
+  - name: $ClientEventTag
+    type_num: 769
+    type: opaque
+    opaque: |
+      FwAAAAAAAOAAoG9BAAAAQACAb0EAAABAAGBvQQAAAEAAQG9BAAAAQAAgb0EAAABAAABvQQAAAEAA4G5B
+      AAAAQADAbkEAAABAAKBuQQAAAAAAgG5BAAAAQABgbkEAAABAAEBuQQAAAEAAAG5BAAAAQADgbUEAAABA
+      AMBtQQAAAEAAIGpBAAAAQAAAakEAAABAAOBpQQAAAEAAwGlBAAAAQACgaUEAAABAAIBpQQAAAEAAYGlB
+      AAAAQABAaUE=
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: "6"
+    signed: true
+  - name: $Flags
+    type: text
+    data: R
+  - name: $SignatureStatus
+    type: text
+    data: "1"
+  - name: $WebFlags
+    type: text
+    data: J
+    signed: true
+  - name: $Body
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x0494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 1
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8MAAIADAAgAAAA
+      - type: 0xfff9
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8iAPn/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkA3Q==
+      - type: 0xff66
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: Zf8iAGb/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkA/w==
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Go back
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0495
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 2
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 2
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8sAAIAHAAAACAAIAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Close this document to view the database
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0794
+        JustifyMode: 3
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 3
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 3
+      - type: 0xffc3
+        opaque: w/8IAAGhwBI=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x12c00101
+        data: About Document Library
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x400000
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 4
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: What does this database do?
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x0494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 5
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1800
+          - 12
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000001
+        data: A Document Library application is an electronic filing cabinet that stores reference documents for access by a workgroup.  The database might contain anything from environmental impact statements for a group of engineers to financial statements for a group of loan officers.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Who will use this database?
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Anyone who wishes to create a record of a document or review available documents may use this database.
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0494
+        JustifyMode: 4
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 6
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Important Features
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x0494
+        JustifyMode: 4
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 7
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1800
+          - 12
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "- "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Web or Notes client:"
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " Database can be accessed from either a Web browser or a Notes Client."
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x0494
+        JustifyMode: 4
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 8
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 12
+          - 1800
+          - 12
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "- "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Review Cycle:"
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " Used to route a document to a series of recipients."
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "- "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Document Archiving:"
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " Used to move expired documents to an archive database."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Suggestions for Modifications
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Full text search: "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you wish to use Notes' full text search capabilities for a database created with this template, select menu File, Database, Properties, go to the Full Text panel and then select Create Index... to create the full text index."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Where to find more information?
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "More information can be found in the "
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: |
+          rf94AAIAGAAAAGwAbAAKAAQAAABOAPsABQEBAAUATm90ZXMACgKvADYAEgACAKQXAAAAAAAA7QGuACQA
+          +wAwAQEADwAvJEhlbHA/T3BlbkhlbHAAIgLgAa4ABAC1AwMABwAYABEACTNTNFM2UlRUMTFTVFJUVFQA
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Using This Database
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " document."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Access Control
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000201
+        data: "Very Important:  "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Access level should be "
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Author
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " for all users of this database.  This will prevent unauthorized editing of documents within the database.  The Author fields within the forms govern who will be able to edit/review particular documents.   Errors will occur if someone with Editor access attempts to review a document when they are not an authorized reviewer of that document.  For those accessing the database from a Web browser, the database does not accept Anonymous users."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Redesigned Document Library 4.0 Databases
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Sometimes, users upgrade the design of their databases using a template provided in a new release of Notes.  There is a problem with Doclib4.ntf databases which are redesigned using the Doclbw50.ntf template (users are unable to open the documents in the database)."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "Doclib4 users:  "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "After you replace/refresh the design of your database using the Doclbw50 template, select Actions--\"Upgrade Doclib R4 Documents to New Design\".  This will run on all documents that were created with the R4 design, and upgrade them to the R4.6 design."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you have created the Document Library using either the Doclbw46.ntf (Std46WebDocLib) or Doclbw50.ntf (StdR50WebDocLib) template, there is no need to use this agent."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000101
+  - name: $Fonts
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: i/8oAAEABRZUaW1lcyBOZXcgUm9tYW4AAAAAAAAAAAAAAAAAAAAAAA==
+  - name: $HTMLCode
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+  - name: $Info
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

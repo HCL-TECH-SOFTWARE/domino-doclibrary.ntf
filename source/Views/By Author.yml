@@ -1,0 +1,428 @@
+---
+class: 8
+flags: 0x0000
+unid: OF11767F07C317180A-ON006B15A385256499
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: GgACAABEAGYHAAADAAFmAAMAAwAkMzMkMTQ=
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EAABAABEAWYHAAADACQzMw==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "6.5"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Formula
+    type: formula
+    data: "!@Contains(@LowerCase(form); \"archive\")"
+    opaque: |
+      KAMBACYAEABBbm9uVHh0AFbBUgCNZiUAAQAJAEFub255bW91cwADAAEALAAPAEFCRnJvbQBXwVIAjWYl
+      AAMCAAUAAAAAAAAABQAEAEZyb220AgMAAgBcAAMAJDMzAAUABABmb3JtAQAJAEFub255bW91cwBHAq8A
+      NgAaAAUAEABBbm9uVHh0AFbBUgCNZiUArgAcAAUADwBBQkZyb20AV8FSAI1mJQAArgAEALUDAwACAG4A
+      AwAkNDQABQAHAHJlYWRlcnMAAQAAAAsCrwBOABAAAAAAAAAAAABPQK4APgAFAAoARXhwaXJlRGF0ZQEA
+      AAALAq8AJgAQAAAAAAAAAAAAUECuABYABQAJAF9WaWV3SWNvbgCuAAQAtQUDAAIADgADACQxNCNpAAMA
+      AQCeABMAdXNlU3ViamVjdAB5NmwAamolAAMFAAQAZm9ybQEAEgBSZXNwb25zZVRvUmVzcG9uc2UKAq8A
+      YAAgAAUAFgBJbW1lZGlhdGVQYXJlbnRTdWJqZWN0rgBAAAUABABmb3JtAQAIAFJlc3BvbnNlCgKvACYA
+      GgAFAA8AT3JpZ2luYWxTdWJqZWN0AK4ADAABAAAArgAEALUFAwACAAgBAwAkMzUABQAHAHJlYWRlcnMA
+      AQAAAAsCrwBMABQAAQAJAFBSSVZBVEU6IACuADgABQAKAEV4cGlyZURhdGUBAAAACwKvACAAFAABAAkA
+      RVhQSVJFRDogAK4ADAABAAAArgAEALUFBQAHAFN1YmplY3QAAQAAAAoCrwAmABIAAQAIAFVudGl0bGVk
+      rgAUAAUABwBTdWJqZWN0AK4ABAC1AyICBQATAHVzZVN1YmplY3QAeTZsAGpqJQACAQAAAAsCrwA+ADIA
+      AQAGACAoUkU6IAUAEwB1c2VTdWJqZWN0AHk2bABqaiUAAiICAQABACkAIgKuAAwAAQAAAK4ABAC1AyIC
+      AwAFACgAIwAFAAMAAwADAAMACQAkMzMkNDQkMTQkMzUkQ29uZmxpY3QABAAEAAAAIAAFAAQAZm9ybWEB
+      AQAHAGFyY2hpdmUARwIeAQMABwAKAAMACThTAA==
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: By Author |ByAuthor
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAEACQAjkwAAFZDgwYDAAEAdAEAABAAAQEKCQAAAAAAAAAAAAACAAAgVkPAAAMAAACIAAAAEAABAAAK
+      AAAAAAAAAAAAAgIAAABWQwUAAwAEABAAAABIAAEADgkAAAEAiAAAAQAAAQAAIFZDAAADAAUAGAIAABYB
+      AQAOCQAgAgAAAAAAAAACAAAgJDMzIHQBBwAcABUAdmFyaWFibGUgdG8gdHJhbnNsYXRlAAcACgADAAkx
+      UwABACYAEABBbm9uVHh0AFbBUgCNZiUAAQAJAEFub255bW91cwADAAcADgAHAAkwUjFTMlMABwAgABkA
+      ZW5kIHZhcmlhYmxlIHRvIHRyYW5zbGF0ZQAHAAwABQAJMFIxUwAHADIAKwB0aGUgZm9sbG93aW5nIGlz
+      IGZvciBhbHRlcm5hdGUgbmFtZSBzdXBwb3J0AAcADAAFAAkwUjFTAAEALAAPAEFCRnJvbQBXwVIAjWYl
+      AAMCAAUAAAAAAAAABQAEAEZyb220AgMABwAQAAkACTBSMVMyUzZTAAIAXAADACQzMwAFAAQAZm9ybQEA
+      CQBBbm9ueW1vdXMARwKvADYAGgAFABAAQW5vblR4dABWwVIAjWYlAK4AHAAFAA8AQUJGcm9tAFfBUgCN
+      ZiUAAK4ABAC1AwMABwAWAA8ACTBSUjJSNlM5UzExUzJFACQ0NIgAAgBuAAMAJDQ0AAUABwByZWFkZXJz
+      AAEAAAALAq8ATgAQAAAAAAAAAAAAT0CuAD4ABQAKAEV4cGlyZURhdGUBAAAACwKvACYAEAAAAAAAAAAA
+      AFBArgAWAAUACQBfVmlld0ljb24ArgAEALUFAwAHABgAEQAJM1M0UzZTOFM5UzEyUzE0UwAkMTREYXRl
+      EAACAA4AAwAkMTQjaQADACQzNVRvcGljGAIBAJ4AEwB1c2VTdWJqZWN0AHk2bABqaiUAAwUABABmb3Jt
+      AQASAFJlc3BvbnNlVG9SZXNwb25zZQoCrwBgACAABQAWAEltbWVkaWF0ZVBhcmVudFN1YmplY3SuAEAA
+      BQAEAGZvcm0BAAgAUmVzcG9uc2UKAq8AJgAaAAUADwBPcmlnaW5hbFN1YmplY3QArgAMAAEAAACuAAQA
+      tQUDAAcAKAAiAAkxUzJTNVM2UzhTMTBSUzI4RTExUzEyUzE0UzE2UlMyOEUCAAgBAwAkMzUABQAHAHJl
+      YWRlcnMAAQAAAAsCrwBMABQAAQAJAFBSSVZBVEU6IACuADgABQAKAEV4cGlyZURhdGUBAAAACwKvACAA
+      FAABAAkARVhQSVJFRDogAK4ADAABAAAArgAEALUFBQAHAFN1YmplY3QAAQAAAAoCrwAmABIAAQAIAFVu
+      dGl0bGVkrgAUAAUABwBTdWJqZWN0AK4ABAC1AyICBQATAHVzZVN1YmplY3QAeTZsAGpqJQACAQAAAAsC
+      rwA+ADIAAQAGACAoUkU6IAUAEwB1c2VTdWJqZWN0AHk2bABqaiUAAiICAQABACkAIgKuAAwAAQAAAK4A
+      BAC1AyICAwAHAEgAQgAJMFJSNFM4UlM4RTlTMTRSUzZFMTdSUjIwUzIxUzIzUzI1UzI3UzI4UlIzMVMz
+      MlMzNFJTOEUzN1MzOFM0MFJTNEUmAAEAAAABAQAJAQAICgEBBAoAAD8ArSsEAAEAAQEAAAAAAAAAAFdD
+      AgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      //8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAA
+      AABCAEAAAAABAP///wABAO/v7wABAAAAAAAAAAAAAAABAAEA////AAEA1Mm6AAAAAQCAAAAAAQAAAP8A
+      AAAAAAAAAAAIAAAAAAABAA==
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: YS
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 211
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000000c1
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAA+fA==
+        title: _Remove from Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001019e
+        IconIndex: 0
+        ShareId: 17
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose]; "Document")
+        data_opaque: |
+          mAABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABEb2N1bWVudLECAwAHAAwABQAJMFI0UwA=
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 4
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType  != "Notes" & !@IsAvailable(form) | (@IsAvailable(Status) &@IsResponseDoc)
+        hidewhen_opaque: |
+          igAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAA4APsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgUABgBTdGF0dXNoAWwAHAIEAB0CAwAHABwAFQAJMFIx
+          UzJFMlMzUzRTOVMxMFMxNVMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0001408a
+        IconIndex: 0
+        ShareId: 5
+        Type: 1
+        data: "@PostedCommand([Compose];\"ResponseToResponse\")"
+        data_opaque: NgAAACgAAgDoAwAAAAAAAAEAEgBSZXNwb25zZVRvUmVzcG9uc2WxAgMABwAMAAUACTBTMEUA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 22
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0041219e
+        IconIndex: 0
+        ShareId: 21
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\EmptyTrash"
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 14
+        Type: 1
+        data: |
+          REM {Web only};
+          @Command([ViewShowSearchBar])
+        data_opaque: NgAHAA4ACABXZWIgb25seQcACgADAAkxUwAAABIAAgCQFwAAAAAAAO0BAwAHAAoAAwAJMFIA
+        title: Search
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 211
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000000c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0xbba58b
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xd4c9ba
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAA+fA==
+        title: _Remove from Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001019e
+        IconIndex: 0
+        ShareId: 17
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose]; "Document")
+        data_opaque: |
+          mAABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABEb2N1bWVudLECAwAHAAwABQAJMFI0UwA=
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 4
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType  != "Notes" & !@IsAvailable(form) | (@IsAvailable(Status) &@IsResponseDoc)
+        hidewhen_opaque: |
+          igAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAA4APsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgUABgBTdGF0dXNoAWwAHAIEAB0CAwAHABwAFQAJMFIx
+          UzJFMlMzUzRTOVMxMFMxNVMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0001408a
+        IconIndex: 0
+        ShareId: 5
+        Type: 1
+        data: "@PostedCommand([Compose];\"ResponseToResponse\")"
+        data_opaque: NgAAACgAAgDoAwAAAAAAAAEAEgBSZXNwb25zZVRvUmVzcG9uc2WxAgMABwAMAAUACTBTMEUA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 22
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0041219e
+        IconIndex: 0
+        ShareId: 21
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\EmptyTrash"
+      - type: 0xfff2
+        opaque: 8v8MAAAAAAAAAAAA
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 14
+        Type: 1
+        data: |
+          REM {Web only};
+          @Command([ViewShowSearchBar])
+        data_opaque: NgAHAA4ACABXZWIgb25seQcACgADAAkxUwAAABIAAgCQFwAAAAAAAO0BAwAHAAoAAwAJMFIA
+        title: Search
+remaining: []

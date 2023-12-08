@@ -1,0 +1,137 @@
+---
+class: 512
+flags: 0x0000
+unid: OF17E2C91CE9D2F65C-ON007391DF85256482
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Option Explicit
+      Use "SubmitForReview"
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:2
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	
+      'logging is for debug purposes
+      	Set dbug = New NotesLog("SubmitDocument")
+      'to turn off the debug log, set this to False     
+      	dbug.LogActions = True
+      	dbug.OpenAgentLog
+      	
+      	On Error Goto StandardError
+      	
+      	Set session = New NotesSession
+      	Set db = session.CurrentDatabase
+      	Set note = session.DocumentContext
+      	
+      'remove all of these so they can ger resest with default values each time the doc is opened     
+      	note.RemoveItem("SaveOptions")
+      	note.RemoveItem("CurrentUser")
+      	note.RemoveItem("SubmitNow")
+      	note.RemoveItem("Resubmit")
+      	note.WebCategories = note.Categories
+      	note.Save True, True, True
+      	Exit Sub
+      	
+      StandardError: 'This is for errors which we are not specifically handling
+      	Print "<h2>" & GetString(12) & "</h2>" & GetString(30)
+      	Exit Sub
+      	
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHu
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      +LBjAFhuJYWVV0UAWG4lhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqru7u7u7u7u7
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: Web only
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "6.5"
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3u
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 0
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (OpenDocument)
+    signed: true
+remaining: []

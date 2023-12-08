@@ -1,0 +1,87 @@
+---
+class: 32784
+flags: 0x0000
+unid: OF582FE50FD1C5BA51-ON004F361885256207
+items:
+  - name: $Daos
+    type: text
+    data: "0"
+  - name: $DefaultFrameset
+    type: text
+    data: BorderFrame
+  - name: $DefaultNavigator
+    type: text
+    data: Main Navigator B1 - All Documents
+  - name: $DefaultWebFrameset
+    type: text
+    data: MainFrameset
+  - name: $DefaultWebNavigator
+    type: text
+    data: Main Navigator B1 - All Documents
+  - name: $Flags
+    type: text
+    data: JFRS7
+  - name: $FlagsNoRefresh
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data:
+      - en
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2008-05-14T09:51:07.01-04:00"
+        dst: true
+      - data: "2008-05-14T09:51:07.05-04:00"
+        dst: true
+      - data: "2008-05-14T09:51:07.07-04:00"
+        dst: true
+      - data: "2012-11-26T09:52:03.33-05:00"
+      - data: "2012-11-26T10:04:31.68-05:00"
+      - data: "2012-11-26T10:04:31.70-05:00"
+      - data: "2012-11-26T10:04:31.74-05:00"
+      - data: "2012-11-26T10:04:31.76-05:00"
+      - data: "2013-05-22T15:36:47.26-04:00"
+        dst: true
+      - data: "2013-05-22T15:44:26.07-04:00"
+        dst: true
+      - data: "2013-05-22T15:44:26.11-04:00"
+        dst: true
+      - data: "2013-05-22T15:44:26.15-04:00"
+        dst: true
+      - data: "2013-05-22T15:44:26.17-04:00"
+        dst: true
+      - data: "2013-05-22T15:45:29.73-04:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: |
+      Doc Library - Notes & Web (9)
+      Document Library
+      #1StdR7WebDocLib
+  - name: $TemplateFileName
+    type: text
+    data: "d:\\data\\doclbw50.ntf"
+  - name: $TemplateModTime
+    type: time
+    data: "1998-11-13T13:44:03.62-05:00"
+  - name: $TemplateServerName
+    type: text
+    data: CN=Debbie Branco/O=Iris
+  - name: IconBitmap
+    type_num: 6
+    type: opaque
+    opaque: |
+      AiAgAQAA/+H////AP///gAf//wAAA/4AAAH8AAAA+AAAAPAAAAHgAAABwAAAAYAAAAEAAAABgAAAAQAA
+      AAGAAAABAAAAAYAAAAHwAAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwA
+      AD/8AAA//AAAP/4AAD8AAAAAAA7u4AAAAAAAAAAAAAAAAADwAO7uAAAAAAAAAAAAAAAPH/8ADu7gAAAA
+      AAAAAAAA8f7u//AA7u7u7u4AAAAADx8f/+7v/wAMzMwO4AAAAPHx/u7//u7/8P/8Du4AAA8fHxEf7u//
+      7u///A8OAADx8fERERH+7v/+//wPAAAPHx8Rf3ERER/u7/b8DwAA8fHxEREX9xEREf7xbA8ADx8fEX9x
+      ERF/cR/vFh8PAPHx8RERF/cRERH+8WFvDwAPHxF/cRERf3Ef7xYWHw8A8fERERf3ERER/vFhYW8PAA8R
+      f3EREX9xH+8WFhYfDwDxEREX9xEREf7xYWFhbw8AD/8RERF/cR/vFhYWFh8PAAAA//ERERH+8WFhYWFv
+      DwAAAADP/xEf7xYWFhYWHw8AAAAAxv///vFhYWFhYW8PAAAAAMb/HG/2FhYWFhYcDwAAAADG/xxv8WFh
+      YWFh/A8AAAAAxv8cb/YWFhYWH/wPAAAAAMb/HG/xYWFhYf/8DwAAAADG/xz2YRERER8fHA8AAAAAxv8c
+      zMzMzMzMzMzPAAAAAMb/HA/x8fHx8fHx8QAAAADG/x/MzMzMzMzMzMzAAAAAz2bxERER8fHA8AAAAAAA
+      AMzMzMzMzMzMzPAAAAAAAADA/x8fHx8fHx8QAAAAAAAADMzMzMzMzMzMzAAAAA==
+remaining: []
