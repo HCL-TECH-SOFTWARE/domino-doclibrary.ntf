@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "How to"
-nav_order: 1
-description: "HCL Domino Doc Library - Notes & Web Template"
+nav_order: 2
+description: "Doc Library - Notes & Web Template"
 has_children: false
 ---
 <h1>Using Domino Doc Library - Notes & Web Template</h1>
