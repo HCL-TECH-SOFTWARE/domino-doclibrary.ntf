@@ -1,4 +1,16 @@
-# HCL Domino Document Library
+# Doc Library - Notes & Web 
+A Document Library application is an electronic filing cabinet that stores reference documents for access by a workgroup.  The database might contain anything from environmental impact statements for a group of engineers to financial statements for a group of loan officers.
+
+## Info
+
+Property | Value
+---|---
+Filename | doclbw7_EN.ntf
+Templatename | StdR7WebDocLib
+Template version | 9.0.1
+Signed by | Open Source Template/Domino Development
+Optimized for | Notes Client & Web
+
 
 To build the application from the source see the latest on [Source Code Integration](https://help.hcltechsw.com/dom_designer/14.0.0/basic/wn_sourcecodeutilitytool.html) in Domino. See the [Releases](https://github.com/HCL-TECH-SOFTWARE/domino-doclibrary.ntf/releases) for the application download.
 
