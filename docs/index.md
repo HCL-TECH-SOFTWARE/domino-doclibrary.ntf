@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "HCL Domino Document Library Template"
+title: "HCL Domino Doc Library - Notes & Web Template"
 nav_order: 1
-description: "HCL Domino Document Library Templatey"
+description: "HCL Domino Doc Library - Notes & Web  Templatey"
 has_children: false
 ---
-<h1>HCL Domino Document Library Template</h1>
+<h1>HCL Domino Doc Library - Notes & Web Template</h1>
 A Document Library application is an electronic filing cabinet that stores reference documents for access by a workgroup.  The database might contain anything from environmental impact statements for a group of engineers to financial statements for a group of loan officers.
 
 <details close markdown="block">
